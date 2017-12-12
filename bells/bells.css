@@ -1,4 +1,4 @@
-body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;}
+body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;background-color:transparent;}
 .b-page__content{min-height:80px}
 
 .b-head-decor{display:none}
