@@ -125,7 +125,7 @@ form button:hover {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
+  top: -160px;
   animation: square 25s infinite; 
   transition-timing-function: linear;
 }
@@ -193,7 +193,7 @@ form button:hover {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-700px) rotate(600deg);
+    transform: translateY(1000px) rotate(600deg);
   }
 }
 @keyframes square {
@@ -201,7 +201,7 @@ form button:hover {
             transform: translateY(0);
   }
   100% {
-            transform: translateY(-700px) rotate(600deg);
+            transform: translateY(1000px) rotate(600deg);
   }
 }
 #logo{
